@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>product Tracker App</title>
+</head>
+<body>
+  <header>
+    <h1>Product Listing</h1>
+  </header>
+  <main>
+    <div class="product-form">
+      <h2>Product</h2>
+      <form id="productForm">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName" required>
+
+        <label for="productDescription">Product Description:</label>
+        <input type="text" id="productDiscription" name="productDiscription" required>
+
+        <label for="productAmount">Amount:</label>
+        <input type="number" id="productAmount" name="productAmount"  required>
+
+        <label for="productQuantity">Quantity:</label>
+        <input type="number" id="productQuantity" name="productQuantity"  required>
+
+
+
+        <button type="submit">Add product</button>
+      </form>
+    </div>
+    
+    <div class="product-list">
+      <h2>Product List</h2>
+      <ul id="productList">
+      </ul>
+      <h5>Total Products</h5>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
